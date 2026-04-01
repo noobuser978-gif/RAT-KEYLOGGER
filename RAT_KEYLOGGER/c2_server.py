@@ -22,8 +22,8 @@ class C2Handler(socketserver.BaseRequestHandler):
             except: break
         print(f"[-] Client disconnected: {self.client_address}")
 
-def crypto_encrypt(data): # Same as client
-    # Implementation here (copy from client)
+def crypto_encrypt(data): 
+    
     pass
 
 if __name__ == "__main__":
